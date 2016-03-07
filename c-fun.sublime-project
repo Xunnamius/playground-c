@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"c-fun.sublime-project"
+			],
+			"path": "."
+		}
+	]
+}
