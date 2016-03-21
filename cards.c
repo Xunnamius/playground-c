@@ -11,6 +11,7 @@ int main()
 {
     char card_name[3];
     int val = 0;
+    int count = 0;
 
     puts("Enter the card name: ");
     scanf("%2s", card_name);
@@ -25,6 +26,12 @@ int main()
         val = atoi(card_name);
 
     printf("The card value is: %i\n", val);
+
+    if(val >= 3 && val <= 6)
+        puts('count goes up!');
+
+    else if(val == 10)
+        puts('count goes down!');
 
     return 0;
 }

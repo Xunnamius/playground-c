@@ -200,10 +200,10 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "cards.c",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 655,
 				"line_ending": "Unix"
 			}
 		}
@@ -577,10 +577,11 @@
 	},
 	"expanded_folders":
 	[
-		"/F/GitHub/xunnamius/c-fun"
+		"/A/repositories/xunnamius/c-fun"
 	],
 	"file_history":
 	[
+		"/A/repositories/xunnamius/c-fun/.gitignore",
 		"/F/GitHub/xunnamius/c-fun/README.md",
 		"/F/GitHub/research/energy-AES-1/README.md",
 		"/C/Users/trefi/AppData/Local/Temp/fz3temp-1/post-receive.log",
@@ -707,8 +708,7 @@
 		"/E/Dev/servers/cplusme.dev/module/Application/view/application/index/login.phtml",
 		"/E/Dev/servers/cplusme.dev/vendor/ZF2/library/Zend/Mvc/Controller/Plugin/PostRedirectGet.php",
 		"/E/Dev/servers/cplusme.dev/vendor/ZF2/library/Zend/Mvc/Controller/Plugin/FilePostRedirectGet.php",
-		"/E/Dev/servers/cplusme.dev/vendor/ZF2/library/Zend/Session/AbstractContainer.php",
-		"/E/Dev/servers/cplusme.dev/vendor/DarkTools/library/DarkGray/InputFilter/AbstractInputFilter.php"
+		"/E/Dev/servers/cplusme.dev/vendor/ZF2/library/Zend/Session/AbstractContainer.php"
 	],
 	"find":
 	{
@@ -965,33 +965,35 @@
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
+					"file": "cards.c",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 655,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								432,
+								432
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
-							"WordCountShouldRun": true,
-							"WordCountSyntax": "git",
+							"WordCount":
+							{
+								"changes": 235,
+								"count": 53,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
 							"bh_regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -1002,26 +1004,16 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1032,19 +1024,35 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content"
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
-							"open_with_edit": true,
-							"syntax": "Packages/Material Theme/langs/Git.tmLanguage"
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
