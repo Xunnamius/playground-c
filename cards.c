@@ -28,10 +28,12 @@ int main()
     printf("The card value is: %i\n", val);
 
     if(val >= 3 && val <= 6)
-        puts('count goes up!');
+        puts("count goes up!");
 
     else if(val == 10)
-        puts('count goes down!');
+        puts("count goes down!");
+
+    printf("memory address: %p\n", &count);
 
     return 0;
 }
