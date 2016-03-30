@@ -1,13 +1,16 @@
-.PHONY all: cards pointers
+SHELL = /bin/sh
+CC = gcc
+CFLAGS = -Wall
+SOURCES = $(wildcard *.c)
 
-cards:
-	gcc cards.c -o cards
+.SUFFIXES:
+.SUFFIXES: .c
+.PHONY: clean all
 
-runcards: cards
-	./cards
+all: $(subst .c,,$(SOURCES))
 
-pointers:
-	gcc pointers.c -o pointers
+%:
+	$(CC) $(CFLAGS) $@.c -o bin/$@
 
-runpointers: pointers
-	./pointers
+clean:
+	rm -f bin/*

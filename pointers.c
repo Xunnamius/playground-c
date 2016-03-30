@@ -9,16 +9,24 @@ void incrementByOne(int * x)
 int main()
 {
     int count = 0;
-    char rawint[2];
 
     puts("Enter a digit: ");
     
-    scanf("%s", rawint);
-    count = (int) atoi(rawint);
+    scanf("%i", &count);
 
     printf("You entered: %i\n", count);
     incrementByOne(&count);
     printf("Count is now: %i\n", count);
+
+    printf("Size of int (8?): %lu\n", sizeof(int));
+
+    char chars[] = "This is my character array";
+    char * cp = chars;
+    char c = *chars;
+
+    printf("These four should be equal: %p %p %p %p\n", chars, &chars, &chars[0], &*cp);
+    printf("But this should be different because dereferenced value is not a reference: %p", &c);
+    puts("\n");
 
     return 0;
 }
