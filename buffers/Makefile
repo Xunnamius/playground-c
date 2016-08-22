@@ -1,6 +1,6 @@
 SHELL = /bin/sh
 CC = gcc
-CFLAGS = -Wall
+CFLAGS = -Wall -std=c99
 SOURCES = $(wildcard *.c)
 
 .SUFFIXES:
@@ -10,7 +10,7 @@ SOURCES = $(wildcard *.c)
 all: $(subst .c,,$(SOURCES))
 
 %:
-	$(CC) $(CFLAGS) $@.c -o bin/$@
+	$(CC) $(CFLAGS) $@.c -o ../bin/$@ -lncurses
 
 clean:
-	rm -f bin/*
+	rm -f ../bin/*
