@@ -10,8 +10,8 @@ int main()
 {
     int count = 0;
 
-    puts("Enter a digit: ");
-    
+	puts("Enter a digit: ");
+
     scanf("%i", &count);
 
     printf("You entered: %i\n", count);

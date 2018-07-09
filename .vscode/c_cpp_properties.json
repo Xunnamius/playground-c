@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "️Win32❤Morty",
+            "browse": {
+                "path": [
+                    "Z:/gitr/Xunnamius/c-playground"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "Z:/gitr/Xunnamius/c-playground",
+                "Z:/gitr/Xunnamius/c-playground/**/*",
+                "F:/OneDrive/linux/usr/local/include",
+                "F:/OneDrive/linux/usr/include/arm-linux-gnueabihf",
+                "F:/OneDrive/linux/usr/lib/gcc/arm-linux-gnueabihf/5/include-fixed",
+                "F:/OneDrive/linux/usr/lib/gcc/arm-linux-gnueabihf/5/include",
+                "F:/OneDrive/linux/usr/include"
+            ],
+            "defines": [
+                "_GNU_SOURCE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

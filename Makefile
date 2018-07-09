@@ -1,6 +1,6 @@
 SHELL = /bin/sh
 CC = gcc
-CFLAGS = -Wall
+CFLAGS = -Wall -g
 SOURCES = $(wildcard *.c)
 
 .SUFFIXES:
@@ -13,4 +13,4 @@ all: $(subst .c,,$(SOURCES))
 	$(CC) $(CFLAGS) $@.c -o bin/$@
 
 clean:
-	rm -f bin/*
+	rm -rf bin/*
